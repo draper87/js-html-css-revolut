@@ -19,6 +19,20 @@ $(document).ready(
       }
     )
 
+    $('.lang').mouseenter(
+      function() {
+        $(this).children('i').toggleClass('attivo');
+        $(this).children('ul').addClass('attivo');
+      }
+    )
+
+    $('.lang').mouseleave(
+      function() {
+        $(this).children('i').toggleClass('attivo');
+        $(this).children('ul').removeClass('attivo');
+      }
+    )
+
 
   }
 )
