@@ -13,6 +13,16 @@
   font-family: 'Roboto';
 }
 
+a {
+  color: #c5c9ce;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+
 /* WRAPPER */
 .wrapper {
   width: 80%;
@@ -27,6 +37,11 @@ nav {
 
 ul li {
   display: inline-block;
+  color: #c5c9ce;
+}
+ul li:hover {
+  color: black;
+  cursor: pointer;
 }
 ul li img {
   height: 20px;
