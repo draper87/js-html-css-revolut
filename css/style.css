@@ -10,6 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  font-family: 'Roboto';
 }
 
 /* WRAPPER */
@@ -29,11 +30,39 @@ ul li {
 }
 ul li img {
   height: 20px;
+  vertical-align: text-bottom;
 }
-
-.nav.left li {
+.nav {
+  line-height: 30px;
+}
+.nav.left > li {
   padding-right: 20px;
 }
-.nav.right li {
+.nav.right > li {
   padding-left: 20px;
+}
+.menu {
+  position: relative;
+}
+.dropdown {
+  width: 200%;
+  position: absolute;
+  top: 100%;
+  left: -10%;
+  padding: 0 10px;
+  box-shadow: -1px 11px 20px -8px rgba(0,0,0,0.75);
+  display: none;
+}
+.dropdown.attivo {
+  display: block;
+}
+.dropdown li {
+  padding: 5px 0;
+  display: block;
+}
+
+span {
+  color: #eb008d;
+  position: relative;
+  top: -10px;
 }

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <title>Revolut</title>
@@ -15,7 +16,7 @@
       <nav>
         <div class="col">
           <ul class="col nav left">
-            <!-- <li><img src="logo-revolut.png" alt=""></li> -->
+            <li><img src="logo-revolut.png" alt=""></li>
             <li>PERSONALE</li>
             <li>BUSINESS</li>
           </ul>
@@ -23,9 +24,27 @@
         <div class="col">
           <ul class="col nav right">
             <li>Tariffazione</li>
-            <li>Conti</li>
+            <li class="menu">
+              Conti
+              <ul class="dropdown">
+                <li>Standard</li>
+                <li>Premium</li>
+                <li>Metal</li>
+                <li>Junior<span>Nuovo</span></li>
+              </ul>
+            </li>
             <li>Prodotti</li>
-            <li>Azienda</li>
+            <li class="menu">
+              Azienda
+              <ul class="dropdown">
+                <li>Chi siamo</li>
+                <li>Blog</li>
+                <li>Lavora con noi</li>
+                <li>Affiliates<span>Nuovo</span></li>
+                <li>Influencers</li>
+                <li>Contatto</li>
+              </ul>
+            </li>
             <li>Aiuto</li>
             <li>IT</li>
             <li>Scarica l'app</li>
@@ -33,6 +52,8 @@
         </div>
       </nav>
     </div>
+
+    <script src="js/script.js" charset="utf-8"></script>
 
   </body>
 </html>
