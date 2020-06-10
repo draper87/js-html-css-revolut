@@ -1,0 +1,39 @@
+/* DEBUG */
+[class*="col"] {
+  background-color: pink;
+  border: 1px solid red;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* WRAPPER */
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  display: inline-block;
+}
+ul li img {
+  height: 20px;
+}
+
+.nav.left li {
+  padding-right: 20px;
+}
+.nav.right li {
+  padding-left: 20px;
+}
