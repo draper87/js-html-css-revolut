@@ -12,16 +12,11 @@
   list-style: none;
   font-family: 'Roboto';
 }
-
+/* REGOLE GENERALI */
 a {
   color: #9ea0a1;
   text-decoration: none;
 }
-a:hover {
-  color: black;
-  cursor: pointer;
-}
-
 /* WRAPPER */
 .wrapper {
   width: 80%;
@@ -36,10 +31,6 @@ nav {
 ul li {
   display: inline-block;
   color: #9ea0a1;
-}
-ul li:hover {
-  color: black;
-  cursor: pointer;
 }
 ul li img {
   height: 20px;
@@ -94,15 +85,6 @@ span {
 .viola a {
   color: white;
 }
-.viola:hover {
-  background-color: white;
-  padding: 0 15px;
-  border-radius: 20px;
-  border: 1px solid #eb008d;
-}
-.viola:hover a {
-  color: #eb008d;
-}
 .lang {
   position: relative;
 }
@@ -111,4 +93,22 @@ span {
 }
 .lang i.attivo {
  display: inline-block;
+}
+/* HOVER */
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+ul li:hover {
+  color: black;
+  cursor: pointer;
+}
+.viola:hover {
+  background-color: white;
+  padding: 0 15px;
+  border-radius: 20px;
+  border: 1px solid #eb008d;
+}
+.viola:hover a {
+  color: #eb008d;
 }
