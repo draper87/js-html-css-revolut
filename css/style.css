@@ -51,8 +51,8 @@ ul li img {
 .nav.left > li {
   padding-right: 20px;
 }
-.nav.left > li:nth-child(2) {
-
+.nav.left > li:nth-child(2) a {
+  color: black;
 }
 .nav.right > li:not(:last-child) {
   padding-left: 20px;
@@ -64,7 +64,7 @@ ul li img {
   position: relative;
 }
 .dropdown {
-  min-width: 400%;
+  white-space: nowrap; /* impedisce alle scritte nei dropdown menu di andare a capo */
   position: absolute;
   top: 100%;
   left: -10%;
